@@ -1,0 +1,157 @@
+############################
+# Node.js / Backend
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+.pnpm-debug.log*
+.env
+.env.*
+
+
+############################
+# Frontend
+############################
+dist/
+build/
+out/
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+.angular/
+.vite/
+public/static/
+*.local
+*.lock
+*.gz
+
+############################
+# TypeScript
+############################
+*.tsbuildinfo
+
+############################
+# Logs & Coverage
+############################
+logs/
+*.log
+coverage/
+.nyc_output/
+.eslintcache
+
+############################
+# File Uploads & Temp
+############################
+uploads/
+tmp/
+temp/
+*.tmp
+
+############################
+# Databases
+############################
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+dump.rdb
+*.bak
+
+############################
+# Docker
+############################
+.dockerignore
+Dockerfile.dev
+docker-compose.override.yml
+*.pid
+
+############################
+# Firebase
+############################
+.firebase/
+firestore.indexes.json
+firestore.rules
+
+############################
+# OS-specific junk
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+############################
+# Editor / IDEs
+############################
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+############################
+# Python (if used for tools or scripts)
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+############################
+# Java / JVM
+############################
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.project
+*.classpath
+target/
+bin/
+
+############################
+# Misc
+############################
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+*.~*
+*.tmp
+*.log
+
+############################
+# Compressed / Archive
+############################
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.tar
+*.tgz
+*.gz
+*.bz2
+
+############################
+# Environment settings
+############################
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
